@@ -177,6 +177,7 @@ exec 'hi  TabLineFill               guifg=' . s:tint10 . '    guibg=' . s:tint03
 exec 'hi  Visual                    guifg=NONE                guibg=' . s:tint05 . '      gui=NONE'
 exec 'hi  Whitespace                guifg=' . s:tint03 . '    guibg=NONE                  gui=NONE'
 exec 'hi  WildMenu                  guifg=' . s:tint03 . '    guibg=' . s:tint11 . '      gui=NONE'
+exec 'hi  Special                   guifg=' . s:tint03 . '    guibg=' . s:tint11 . '      gui=bold'
 
 " Syntax highlight in mono
 exec 'hi! link                      Comment                   munuNormalFg'
@@ -281,5 +282,3 @@ exec 'hi  SignifySignDelete         guifg=' . s:diffdelbg . ' guibg=NONE        
 exec 'hi  GitGutterAdd              guifg=' . s:diffaddbg . ' guibg=NONE                  gui=NONE'
 exec 'hi  GitGutterChange           guifg=' . s:diffchgbg . ' guibg=NONE                  gui=NONE'
 exec 'hi  GitGutterDelete           guifg=' . s:diffdelbg . ' guibg=NONE                  gui=NONE'
-
-exec 'hi! link                      CmpItemKindDefault        Pmenu'
