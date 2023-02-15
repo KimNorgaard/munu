@@ -281,3 +281,5 @@ exec 'hi  SignifySignDelete         guifg=' . s:diffdelbg . ' guibg=NONE        
 exec 'hi  GitGutterAdd              guifg=' . s:diffaddbg . ' guibg=NONE                  gui=NONE'
 exec 'hi  GitGutterChange           guifg=' . s:diffchgbg . ' guibg=NONE                  gui=NONE'
 exec 'hi  GitGutterDelete           guifg=' . s:diffdelbg . ' guibg=NONE                  gui=NONE'
+
+exec 'hi! link                      CmpItemKindDefault        Pmenu'
